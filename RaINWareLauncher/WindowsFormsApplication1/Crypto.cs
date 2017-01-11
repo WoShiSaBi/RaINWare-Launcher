@@ -7,7 +7,7 @@ public static class EncryptionHelper
 {
     public static string Encrypt(string clearText)
     {
-        var EncryptionKey = "33eG9*aRZg)$?hAgS";
+        var EncryptionKey = "YOURKEYHERE";
         var clearBytes = Encoding.Unicode.GetBytes(clearText);
         using (var encryptor = Aes.Create())
         {
