@@ -100,11 +100,6 @@ namespace WindowsFormsApplication1
                     }
                 }
             }
-            else
-            {
-                Process.Start("Updater.exe");
-                Close();
-            }
         }
 
         // #1
