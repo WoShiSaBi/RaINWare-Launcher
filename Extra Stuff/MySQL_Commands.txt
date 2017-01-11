@@ -1,0 +1,15 @@
+CREATE TABLE UserDB
+(
+NAME varchar(255),
+PASSWORD varchar(255),
+HWID1 varchar(255),
+HWID2 varchar(255),
+PAID varchar(1)
+);
+
+CREATE TABLE Information
+(
+SkinWareVersion varchar(255)
+);
+
+INSERT INTO `Information` (`LauncherVersion`) VALUES ('1.0.0.0');
